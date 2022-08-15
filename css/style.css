@@ -1651,6 +1651,23 @@ body {
   }
 }
 
+.services-more__text {
+  line-height: 138%;
+  letter-spacing: 0.075em;
+}
+
+@supports (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
+  .services-more__text {
+    font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem );
+  }
+}
+
+@supports not (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
+  .services-more__text {
+    font-size: calc(1.25rem + 0.25 * (100vw - 20rem) / 55.625);
+  }
+}
+
 .services-more__text p:not(:last-child) {
   margin-bottom: 0.9375rem;
 }
