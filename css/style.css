@@ -626,8 +626,8 @@ body {
   padding: 38px 28px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr auto auto;
-  grid-template-rows: 1fr auto auto;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 .card-products__icon {
@@ -1651,6 +1651,31 @@ body {
   }
 }
 
+.services-more__text p:not(:last-child) {
+  margin-bottom: 0.9375rem;
+}
+
+.services-more__text ul {
+  padding: 30px 20px;
+}
+
+.services-more__text li {
+  position: relative;
+  padding-left: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.services-more__text li::before {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 0;
+  top: 8px;
+}
+
 .header__container {
   position: relative;
 }
@@ -1805,6 +1830,10 @@ body {
   }
 }
 
+.about-us__text p:not(:last-child) {
+  margin-bottom: 0.9375rem;
+}
+
 .about-us__image {
   position: relative;
   max-height: 482px;
@@ -1888,6 +1917,10 @@ body {
   .mission-about-us__title {
     margin-bottom: calc(0.9375rem + 0.3125 * (100vw - 20rem) / 55.625);
   }
+}
+
+.mission-about-us__text p:not(:last-child) {
+  margin-bottom: 0.9375rem;
 }
 
 .mission-about-us__image {
