@@ -626,18 +626,20 @@ body {
   padding: 38px 28px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
+  -ms-grid-rows: auto auto 1fr;
+  grid-template-rows: auto auto 1fr;
 }
 
 .card-products__icon {
   margin-bottom: 1.25rem;
+  display: block;
 }
 
 .card-products__title {
   line-height: 138%;
   letter-spacing: 0.075em;
   margin-bottom: 0.625rem;
+  display: block;
 }
 
 @supports (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
@@ -656,6 +658,7 @@ body {
   height: 100%;
   font-size: 1rem;
   line-height: 138%;
+  display: block;
 }
 
 @supports (padding-top: clamp( 1.25rem , 0.5758426966rem  +  3.3707865169vw , 3.125rem )) {
@@ -2163,15 +2166,15 @@ body {
 }
 
 @media (min-width: 85.625em) {
-@supports (width: clamp( 48.125rem , 43.4545454545rem  +  5.4545454545vw , 50rem )) {
+@supports (width: clamp( 48.125rem , 41.8977272727rem  +  7.2727272727vw , 50.625rem )) {
     .products__cards-products {
-      width: clamp( 48.125rem , 43.4545454545rem  +  5.4545454545vw , 50rem );
+      width: clamp( 48.125rem , 41.8977272727rem  +  7.2727272727vw , 50.625rem );
     }
 }
 
-@supports not (width: clamp( 48.125rem , 43.4545454545rem  +  5.4545454545vw , 50rem )) {
+@supports not (width: clamp( 48.125rem , 41.8977272727rem  +  7.2727272727vw , 50.625rem )) {
     .products__cards-products {
-      width: calc(48.125rem + 1.875 * (100vw - 85.625rem) / 34.375);
+      width: calc(48.125rem + 2.5 * (100vw - 85.625rem) / 34.375);
     }
 }
 
