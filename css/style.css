@@ -2860,9 +2860,9 @@ body {
   }
 
   .cards-products__card-products:hover {
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1.025);
+        -ms-transform: scale(1.025);
+            transform: scale(1.025);
     -webkit-box-shadow: 0px 5px 5px rgba(204, 204, 204, 0.5);
             box-shadow: 0px 5px 5px rgba(204, 204, 204, 0.5);
   }
@@ -2872,9 +2872,9 @@ body {
   }
 
   .columns-credit__credit-column:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
     -webkit-box-shadow: 0px 5px 5px rgba(204, 204, 204, 0.5);
             box-shadow: 0px 5px 5px rgba(204, 204, 204, 0.5);
   }
