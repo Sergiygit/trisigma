@@ -176,15 +176,15 @@ body {
   text-transform: uppercase;
 }
 
-@supports (font-size: clamp( 1.75rem , 1.3005617978rem  +  2.2471910112vw , 3rem )) {
+@supports (font-size: clamp( 1.125rem , 0.6755617978rem  +  2.2471910112vw , 2.375rem )) {
   .title {
-    font-size: clamp( 1.75rem , 1.3005617978rem  +  2.2471910112vw , 3rem );
+    font-size: clamp( 1.125rem , 0.6755617978rem  +  2.2471910112vw , 2.375rem );
   }
 }
 
-@supports not (font-size: clamp( 1.75rem , 1.3005617978rem  +  2.2471910112vw , 3rem )) {
+@supports not (font-size: clamp( 1.125rem , 0.6755617978rem  +  2.2471910112vw , 2.375rem )) {
   .title {
-    font-size: calc(1.75rem + 1.25 * (100vw - 20rem) / 55.625);
+    font-size: calc(1.125rem + 1.25 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -193,15 +193,15 @@ body {
   line-height: 138%;
 }
 
-@supports (font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem )) {
+@supports (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
   .text {
-    font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem );
+    font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem );
   }
 }
 
-@supports not (font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
   .text {
-    font-size: calc(1.125rem + 0.125 * (100vw - 20rem) / 55.625);
+    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -505,15 +505,15 @@ body {
   }
 }
 
-@supports (font-size: clamp( 2.375rem , 2.0603932584rem  +  1.5730337079vw , 3.25rem )) {
+@supports (font-size: clamp( 1.75rem , 1.4353932584rem  +  1.5730337079vw , 2.625rem )) {
   .main-block__title {
-    font-size: clamp( 2.375rem , 2.0603932584rem  +  1.5730337079vw , 3.25rem );
+    font-size: clamp( 1.75rem , 1.4353932584rem  +  1.5730337079vw , 2.625rem );
   }
 }
 
-@supports not (font-size: clamp( 2.375rem , 2.0603932584rem  +  1.5730337079vw , 3.25rem )) {
+@supports not (font-size: clamp( 1.75rem , 1.4353932584rem  +  1.5730337079vw , 2.625rem )) {
   .main-block__title {
-    font-size: calc(2.375rem + 0.875 * (100vw - 20rem) / 55.625);
+    font-size: calc(1.75rem + 0.875 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -523,15 +523,15 @@ body {
   line-height: 138%;
 }
 
-@supports (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
+@supports (font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem )) {
   .main-block__text {
-    font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem );
+    font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem );
   }
 }
 
-@supports not (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
+@supports not (font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem )) {
   .main-block__text {
-    font-size: calc(1.25rem + 0.25 * (100vw - 20rem) / 55.625);
+    font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -716,15 +716,15 @@ body {
   line-height: 138%;
 }
 
-@supports (font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem )) {
+@supports (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
   .make__text {
-    font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem );
+    font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem );
   }
 }
 
-@supports not (font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
   .make__text {
-    font-size: calc(1.125rem + 0.125 * (100vw - 20rem) / 55.625);
+    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -815,15 +815,15 @@ body {
   line-height: 138%;
 }
 
-@supports (font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem )) {
+@supports (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
   .positioning__text {
-    font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem );
+    font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem );
   }
 }
 
-@supports not (font-size: clamp( 1.125rem , 1.0800561798rem  +  0.2247191011vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
   .positioning__text {
-    font-size: calc(1.125rem + 0.125 * (100vw - 20rem) / 55.625);
+    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -912,6 +912,23 @@ body {
 
 .analytics__title {
   margin-bottom: 0.9375rem;
+}
+
+.analytics__text {
+  font-weight: 400;
+  line-height: 138%;
+}
+
+@supports (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
+  .analytics__text {
+    font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem );
+  }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
+  .analytics__text {
+    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55.625);
+  }
 }
 
 .analytics__image {
@@ -1085,15 +1102,31 @@ body {
   margin-bottom: 0.625rem;
 }
 
-@supports (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
+@supports (font-size: clamp( 1.125rem , 1.0351123596rem  +  0.4494382022vw , 1.375rem )) {
   .credit-column__title {
-    font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem );
+    font-size: clamp( 1.125rem , 1.0351123596rem  +  0.4494382022vw , 1.375rem );
   }
 }
 
-@supports not (font-size: clamp( 1.25rem , 1.1601123596rem  +  0.4494382022vw , 1.5rem )) {
+@supports not (font-size: clamp( 1.125rem , 1.0351123596rem  +  0.4494382022vw , 1.375rem )) {
   .credit-column__title {
-    font-size: calc(1.25rem + 0.25 * (100vw - 20rem) / 55.625);
+    font-size: calc(1.125rem + 0.25 * (100vw - 20rem) / 55.625);
+  }
+}
+
+.credit-column__text {
+  line-height: 138%;
+}
+
+@supports (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
+  .credit-column__text {
+    font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem );
+  }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
+  .credit-column__text {
+    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -1132,6 +1165,19 @@ body {
 
 .text-block__text {
   text-align: center;
+  line-height: 138%;
+}
+
+@supports (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
+  .text-block__text {
+    font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem );
+  }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9550561798rem  +  0.2247191011vw , 1.125rem )) {
+  .text-block__text {
+    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 55.625);
+  }
 }
 
 @supports (padding-bottom: clamp( 0.9375rem , 0.6004213483rem  +  1.6853932584vw , 1.875rem )) {
@@ -1310,6 +1356,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 559px;
 }
 
@@ -1326,6 +1375,7 @@ body {
 }
 
 .contacts__map {
+  height: 100%;
   background-color: #0A64B0;
 }
 
@@ -1344,15 +1394,15 @@ body {
   cursor: pointer;
 }
 
-@supports (font-size: clamp( 1.5rem , 1.3202247191rem  +  0.8988764045vw , 2rem )) {
+@supports (font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem )) {
   .contacts-column__link {
-    font-size: clamp( 1.5rem , 1.3202247191rem  +  0.8988764045vw , 2rem );
+    font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem );
   }
 }
 
-@supports not (font-size: clamp( 1.5rem , 1.3202247191rem  +  0.8988764045vw , 2rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem )) {
   .contacts-column__link {
-    font-size: calc(1.5rem + 0.5 * (100vw - 20rem) / 55.625);
+    font-size: calc(1.25rem + 0.375 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -1361,15 +1411,15 @@ body {
   line-height: 138%;
 }
 
-@supports (font-size: clamp( 1.5rem , 1.3202247191rem  +  0.8988764045vw , 2rem )) {
+@supports (font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem )) {
   .contacts-column__text {
-    font-size: clamp( 1.5rem , 1.3202247191rem  +  0.8988764045vw , 2rem );
+    font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem );
   }
 }
 
-@supports not (font-size: clamp( 1.5rem , 1.3202247191rem  +  0.8988764045vw , 2rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem )) {
   .contacts-column__text {
-    font-size: calc(1.5rem + 0.5 * (100vw - 20rem) / 55.625);
+    font-size: calc(1.25rem + 0.375 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -1642,15 +1692,15 @@ body {
   }
 }
 
-@supports (font-size: clamp( 1.375rem , 1.2176966292rem  +  0.7865168539vw , 1.8125rem )) {
+@supports (font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem )) {
   .services-more__card-title {
-    font-size: clamp( 1.375rem , 1.2176966292rem  +  0.7865168539vw , 1.8125rem );
+    font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem );
   }
 }
 
-@supports not (font-size: clamp( 1.375rem , 1.2176966292rem  +  0.7865168539vw , 1.8125rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.1151685393rem  +  0.6741573034vw , 1.625rem )) {
   .services-more__card-title {
-    font-size: calc(1.375rem + 0.4375 * (100vw - 20rem) / 55.625);
+    font-size: calc(1.25rem + 0.375 * (100vw - 20rem) / 55.625);
   }
 }
 
@@ -1659,15 +1709,15 @@ body {
   letter-spacing: 0.075em;
 }
 
-@supports (font-size: clamp( 1rem , 0.8202247191rem  +  0.8988764045vw , 1.5rem )) {
+@supports (font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem )) {
   .services-more__text {
-    font-size: clamp( 1rem , 0.8202247191rem  +  0.8988764045vw , 1.5rem );
+    font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem );
   }
 }
 
-@supports not (font-size: clamp( 1rem , 0.8202247191rem  +  0.8988764045vw , 1.5rem )) {
+@supports not (font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem )) {
   .services-more__text {
-    font-size: calc(1rem + 0.5 * (100vw - 20rem) / 55.625);
+    font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55.625);
   }
 }
 
