@@ -1674,7 +1674,7 @@ body {
 }
 
 .services-more__card-title {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 138%;
   /* identical to box height, or 40px */
   letter-spacing: 0.075em;
@@ -1707,6 +1707,7 @@ body {
 .services-more__text {
   line-height: 138%;
   letter-spacing: 0.075em;
+  font-weight: 400;
 }
 
 @supports (font-size: clamp( 1rem , 0.9101123596rem  +  0.4494382022vw , 1.25rem )) {
