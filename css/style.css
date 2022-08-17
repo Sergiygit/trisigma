@@ -240,6 +240,9 @@ body {
 
 .header__logo {
   z-index: 2;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .header__menu {
@@ -1805,6 +1808,9 @@ body {
 
 .header__logo {
   z-index: 5;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .header__menu-all {
@@ -2092,19 +2098,19 @@ body {
     display: flex;
   }
 
-@supports ((-moz-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem )) or (column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem ))) {
+@supports ((-moz-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem )) or (column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem ))) {
     .menu__list {
-      -webkit-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem );
-         -moz-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem );
-              column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem );
+      -webkit-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem );
+         -moz-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem );
+              column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem );
     }
 }
 
-@supports not ((-moz-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem )) or (column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem ))) {
+@supports not ((-moz-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem )) or (column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem ))) {
     .menu__list {
-      -webkit-column-gap: calc(0.0000000625rem + 4.9999999375 * (100vw - 20rem) / 55.625);
-         -moz-column-gap: calc(0.0000000625rem + 4.9999999375 * (100vw - 20rem) / 55.625);
-              column-gap: calc(0.0000000625rem + 4.9999999375 * (100vw - 20rem) / 55.625);
+      -webkit-column-gap: calc(0.0000000625rem + 2.4999999375 * (100vw - 20rem) / 55.625);
+         -moz-column-gap: calc(0.0000000625rem + 2.4999999375 * (100vw - 20rem) / 55.625);
+              column-gap: calc(0.0000000625rem + 2.4999999375 * (100vw - 20rem) / 55.625);
     }
 }
 
@@ -2130,19 +2136,19 @@ body {
     display: flex;
   }
 
-@supports ((-moz-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem )) or (column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem ))) {
+@supports ((-moz-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem )) or (column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem ))) {
     .menu-all__list {
-      -webkit-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem );
-         -moz-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem );
-              column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem );
+      -webkit-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem );
+         -moz-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem );
+              column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem );
     }
 }
 
-@supports not ((-moz-column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem )) or (column-gap: clamp( 0.0000000625rem , -1.797752724rem  +  8.9887639326vw , 5rem ))) {
+@supports not ((-moz-column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem )) or (column-gap: clamp( 0.0000000625rem , -0.8988763195rem  +  4.4943819101vw , 2.5rem ))) {
     .menu-all__list {
-      -webkit-column-gap: calc(0.0000000625rem + 4.9999999375 * (100vw - 20rem) / 55.625);
-         -moz-column-gap: calc(0.0000000625rem + 4.9999999375 * (100vw - 20rem) / 55.625);
-              column-gap: calc(0.0000000625rem + 4.9999999375 * (100vw - 20rem) / 55.625);
+      -webkit-column-gap: calc(0.0000000625rem + 2.4999999375 * (100vw - 20rem) / 55.625);
+         -moz-column-gap: calc(0.0000000625rem + 2.4999999375 * (100vw - 20rem) / 55.625);
+              column-gap: calc(0.0000000625rem + 2.4999999375 * (100vw - 20rem) / 55.625);
     }
 }
 }
@@ -2540,12 +2546,6 @@ body {
     width: 100%;
   }
 
-  .header__logo {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-  }
-
   .menu__body {
     position: absolute;
     background-color: #000;
@@ -2654,12 +2654,6 @@ body {
 
   .header__content {
     width: 100%;
-  }
-
-  .header__logo {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
   }
 
   .menu-all__body {
